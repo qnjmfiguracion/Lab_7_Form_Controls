@@ -1,0 +1,34 @@
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #f8f9fa;
+}
+
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.text-field, .text-area, .combo-box {
+    -fx-pref-width: 250;
+}
+
+.text-area {
+    -fx-pref-height: 80;
+}
+
+.submit-button {
+    -fx-background-color: #1e88e5;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-background-radius: 4;
+}
+
+.submit-button:hover {
+    -fx-background-color: #1976d2;
+}
+
+.check-box .text {
+    -fx-fill: #1e88e5;
+}
